@@ -1,0 +1,80 @@
+header{
+    display: flex;
+    justify-content: center;
+    
+
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.info{
+    position: relative;
+    top: 18px;
+   background-color: #248e9c;
+   font-size: 23px;
+   border-radius: 50px;
+   border-style: none;
+   color: black;
+}
+.main1{
+    display: flex;
+    justify-content: center;
+    
+}
+.p1{
+    display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+  margin-right: 5%;
+  direction: rtl;
+  margin-bottom: 10px;
+}
+.mp{
+    display: flex;
+    justify-content: center;
+    color: #27af86;
+    font-size:30px;
+
+}
+.m1{
+    display: block;
+    border: 3px solid black;
+    border-radius: 8%;
+    height: 200px;
+    margin-top: 10px;
+    overflow-y: auto;
+    /* background-color: rgb(255, 255, 255); */
+    background-image:url(images/bg2.jpeg) ;
+    font-size: 20px;
+    /* margin-bottom: 10px; */
+}
+.b1{
+    display: block;
+    margin-top: 10px;
+    margin-left:100px ;
+    
+
+}
+a{
+color: black;
+  text-decoration: none;  
+}
+
+
+.m1::-webkit-scrollbar {
+    width: 5px; 
+    /* height: px;  */
+  }
+  
+  .m1::-webkit-scrollbar-track {
+    background-color: #0b606300; /* لون الخلفية لمسار التمرير */
+  }
+  
+  .m1::-webkit-scrollbar-thumb {
+    background-color: #248e9c; /* لون شريط التمرير */
+    border-radius: 6px; /* تدوير حواف شريط التمرير */
+  }
+  
+  .m1::-webkit-scrollbar-thumb:hover {
+    background-color: #27af86; /* لون شريط التمرير عند التحريك */
+  }
